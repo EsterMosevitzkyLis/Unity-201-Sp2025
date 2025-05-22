@@ -25,7 +25,8 @@ Material:
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
-  - _COLORSELECTOR_C
+  - _MAIN_RED
+  - _SECOND_BLUE
   m_InvalidKeywords:
   - 
   - C
@@ -40,6 +41,7 @@ Material:
   - _COLORSELECTOR.
   - _COLORSELECTOR.C
   - _COLORSELECTOR_
+  - _COLORSELECTOR_C
   - _ENUM_C
   - _R
   - _RE
@@ -143,7 +145,7 @@ Material:
     - _GlossyReflections: 0
     - _MAIN_BLUE: 0
     - _MAIN_PINK: 0
-    - _MAIN_RED: 0
+    - _MAIN_RED: 1
     - _MAIN_YELLOW: 0
     - _Metallic: 0
     - _OcclusionStrength: 1
@@ -151,6 +153,9 @@ Material:
     - _QueueOffset: 0
     - _RED: 0
     - _ReceiveShadows: 1
+    - _SECOND_BLUE: 1
+    - _SECOND_RED: 0
+    - _SECOND_YELLOW: 0
     - _Smoothness: 0.5
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
@@ -168,8 +173,11 @@ Material:
     - _Main_Color_BLUE: {r: 0, g: 0.41603416, b: 1, a: 0}
     - _Main_Color_PINK: {r: 1, g: 0, b: 0.7909455, a: 0}
     - _Main_Color_RED: {r: 1, g: 0, b: 0.009047508, a: 0}
-    - _Main_Color_YELLOW: {r: 0, g: 0.41603416, b: 1, a: 0}
+    - _Main_Color_YELLOW: {r: 0.9078033, g: 1, b: 0, a: 0}
     - _Second_Color: {r: 1, g: 0.4470588, b: 0.9366893, a: 0}
+    - _Second_Color_BLUE: {r: 0, g: 0.4156863, b: 1, a: 1}
+    - _Second_Color_RED: {r: 1, g: 0, b: 0.009047508, a: 0}
+    - _Second_Color_YELLOW: {r: 0.9058824, g: 1, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
