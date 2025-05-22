@@ -20,11 +20,13 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: CatMatShader
+  m_Name: CarMatShader
   m_Shader: {fileID: -6465566751694194690, guid: bae0dce6221fe184e955ee6795ed1ffd, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
+  - _CAR_JEEP
+  - _FLIPFLOP
   - _MAIN_RED
   - _SECOND_BLUE
   m_InvalidKeywords:
@@ -64,6 +66,14 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _Car_1_photo:
+        m_Texture: {fileID: 2800000, guid: 585e2c93cd2009647b1b318d6ec73e6f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Car_2_photo:
+        m_Texture: {fileID: 2800000, guid: 9cac655e8e1015d469fdcbcb7fd7a079, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _DetailAlbedoMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -96,8 +106,36 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _SEPARATION_LINE:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_57f82a61c54840a58a5ea1fb55e8888a_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: 1288d338f317b0a41a397383249630dc, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_77feaa91dab64d1bb37bdeb33905a0a9_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: 723966060ac7a9045b9dcbd1bf23437d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_7d1fb7443bea4a168d2a0aa143fe59dd_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: aad0f501328723b46aebef70571197c5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_7e4f9c52fdb14595b30610f73e389673_Texture_1_Texture2D:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_a44f292a37e84d72a8261f1a88aade09_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: 723966060ac7a9045b9dcbd1bf23437d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_c0467d85ff054db6a2744861e7855386_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: aad0f501328723b46aebef70571197c5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _SampleTexture2D_dbdc31bc50c749f3b57216879e361491_Texture_1_Texture2D:
-        m_Texture: {fileID: 2800000, guid: 2d19dd0e391b7ea4ebcc44e157900ec7, type: 3}
+        m_Texture: {fileID: 2800000, guid: e265729d238b1ce41a69080481ce010a, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SpecGlossMap:
@@ -129,6 +167,10 @@ Material:
     - _Blend: 0
     - _BlendModePreserveSpecular: 1
     - _BumpScale: 1
+    - _CAR_JEEP: 1
+    - _CAR_ONE: 0
+    - _CAR_TRUCK: 0
+    - _CAR_TWO: 1
     - _COLORSELECTOR: 0
     - _ClearCoatMask: 0
     - _ClearCoatSmoothness: 0
@@ -140,6 +182,7 @@ Material:
     - _DstBlendAlpha: 0
     - _ENUM: 0
     - _EnvironmentReflections: 1
+    - _FLIPFLOP: 1
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
@@ -154,6 +197,7 @@ Material:
     - _RED: 0
     - _ReceiveShadows: 1
     - _SECOND_BLUE: 1
+    - _SECOND_PINK: 0
     - _SECOND_RED: 0
     - _SECOND_YELLOW: 0
     - _Smoothness: 0.5
@@ -176,8 +220,10 @@ Material:
     - _Main_Color_YELLOW: {r: 0.9078033, g: 1, b: 0, a: 0}
     - _Second_Color: {r: 1, g: 0.4470588, b: 0.9366893, a: 0}
     - _Second_Color_BLUE: {r: 0, g: 0.4156863, b: 1, a: 1}
+    - _Second_Color_PINK: {r: 1, g: 0, b: 0.7921569, a: 1}
     - _Second_Color_RED: {r: 1, g: 0, b: 0.009047508, a: 0}
     - _Second_Color_YELLOW: {r: 0.9058824, g: 1, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
+    - _VehicalCOLOR: {r: 0.4339623, g: 0.3500356, b: 0.3500356, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
