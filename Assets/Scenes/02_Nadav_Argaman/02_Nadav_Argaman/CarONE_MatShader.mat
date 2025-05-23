@@ -20,15 +20,13 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: CarMatShader
+  m_Name: CarONE_MatShader
   m_Shader: {fileID: -6465566751694194690, guid: bae0dce6221fe184e955ee6795ed1ffd, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
-  - _CAR_JEEP
-  - _FLIPFLOP
-  - _MAIN_PINK
-  - _SECOND_PINK
+  - _MAIN_RED
+  - _SECOND_BLUE
   m_InvalidKeywords:
   - 
   - C
@@ -39,12 +37,14 @@ Material:
   - _BLUE
   - _Bl
   - _C
+  - _CAR_JEEP
   - _COLORSELECTOR
   - _COLORSELECTOR.
   - _COLORSELECTOR.C
   - _COLORSELECTOR_
   - _COLORSELECTOR_C
   - _ENUM_C
+  - _FLIPFLOP
   - _R
   - _RE
   m_LightmapFlags: 4
