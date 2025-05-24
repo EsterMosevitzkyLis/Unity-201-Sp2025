@@ -401,10 +401,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -1124.0,
-            "y": 7.9999895095825199,
-            "width": 112.00006103515625,
-            "height": 33.999996185302737
+            "x": -1173.0,
+            "y": 8.0,
+            "width": 185.0,
+            "height": 34.0
         }
     },
     "m_Slots": [
@@ -880,10 +880,10 @@
     "m_Guid": {
         "m_GuidSerialized": "05e4c75a-87ae-4570-be26-23fb2aff64c0"
     },
-    "m_Name": "ColorA",
+    "m_Name": "Window&LightsColor",
     "m_DefaultRefNameVersion": 1,
-    "m_RefNameGeneratedByDisplayName": "ColorA",
-    "m_DefaultReferenceName": "_ColorA",
+    "m_RefNameGeneratedByDisplayName": "Window&LightsColor",
+    "m_DefaultReferenceName": "_Window_LightsColor",
     "m_OverrideReferenceName": "",
     "m_GeneratePropertyBlock": true,
     "m_UseCustomSlotLabel": false,
@@ -983,10 +983,10 @@
     "m_Guid": {
         "m_GuidSerialized": "78cfe034-500d-44b9-b36f-ef73382faa3e"
     },
-    "m_Name": "ColorB",
+    "m_Name": "BodyColor",
     "m_DefaultRefNameVersion": 1,
-    "m_RefNameGeneratedByDisplayName": "ColorB",
-    "m_DefaultReferenceName": "_ColorB",
+    "m_RefNameGeneratedByDisplayName": "BodyColor",
+    "m_DefaultReferenceName": "_BodyColor",
     "m_OverrideReferenceName": "",
     "m_GeneratePropertyBlock": true,
     "m_UseCustomSlotLabel": false,
@@ -1318,7 +1318,7 @@
     "m_Type": "UnityEditor.ShaderGraph.Vector4MaterialSlot",
     "m_ObjectId": "ab7dd1de292a4bb295dbcb7e30edcdaa",
     "m_Id": 0,
-    "m_DisplayName": "ColorA",
+    "m_DisplayName": "Window&LightsColor",
     "m_SlotType": 1,
     "m_Hidden": false,
     "m_ShaderOutputName": "Out",
@@ -1419,7 +1419,7 @@
     "hlslDeclarationOverride": 0,
     "m_Hidden": false,
     "m_Value": {
-        "m_SerializedTexture": "{\"texture\":{\"fileID\":2800000,\"guid\":\"b01321689ed9208469f8720241c40b30\",\"type\":3}}",
+        "m_SerializedTexture": "{\"texture\":{\"fileID\":2800000,\"guid\":\"96cb0b43dc23ce342af28e4ddb82c5d0\",\"type\":3}}",
         "m_Guid": ""
     },
     "isMainTexture": false,
@@ -1433,7 +1433,7 @@
     "m_Type": "UnityEditor.ShaderGraph.Vector4MaterialSlot",
     "m_ObjectId": "b5a21cf39b2c43519021cf8c0dfc1cf9",
     "m_Id": 0,
-    "m_DisplayName": "ColorB",
+    "m_DisplayName": "BodyColor",
     "m_SlotType": 1,
     "m_Hidden": false,
     "m_ShaderOutputName": "Out",
