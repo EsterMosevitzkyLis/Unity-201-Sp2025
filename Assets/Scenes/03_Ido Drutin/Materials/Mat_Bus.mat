@@ -20,7 +20,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Mat_CarBlueWindow
+  m_Name: Mat_Bus
   m_Shader: {fileID: -6465566751694194690, guid: 4e497c9d822a9f24989016dae381a50d, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -156,14 +156,19 @@ Material:
     - _ZWrite: 1
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
+    - _Body: {r: 0.35518757, g: 0.30660376, b: 1, a: 1}
+    - _Body_1: {r: 0.9686275, g: 0.34117648, b: 0.13725486, a: 1}
     - _Body_Color: {r: 1, g: 0.05187945, b: 0, a: 0}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _Colour1: {r: 0.8463328, g: 1, b: 0, a: 0}
+    - _Colour1: {r: 1, g: 0, b: 0.68138695, a: 0}
     - _Colour1_1: {r: 0.12941194, g: 1, b: 0, a: 1}
-    - _Colour2: {r: 1, g: 0.051886797, b: 0.096504115, a: 0}
+    - _Colour2: {r: 1, g: 0.38022724, b: 0.05098039, a: 0}
     - _Colour2_1: {r: 0.5333334, g: 0.8313726, b: 0.8352942, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
+    - _Wheel: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
     - _Wheel_Color: {r: 0, g: 1, b: 0.07561871, a: 0}
+    - _Window: {r: 0, g: 0, b: 1, a: 1}
+    - _Window_1: {r: 0.9686275, g: 0.34117648, b: 0.13725486, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
