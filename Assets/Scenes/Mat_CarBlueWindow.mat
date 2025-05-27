@@ -20,7 +20,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Mat_Customization
+  m_Name: Mat_CarBlueWindow
   m_Shader: {fileID: -6465566751694194690, guid: 4e497c9d822a9f24989016dae381a50d, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -89,6 +89,10 @@ Material:
         m_Texture: {fileID: 2800000, guid: 24bcf78c2a915ea4d85dac0027e483c8, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_46b8dfb691d8412f90fae93e17f73e2c_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: c5d09465b8385a642bafe11804231f6d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _SampleTexture2D_6b941595e2e345ac930ff5dc201a3dce_Texture_1_Texture2D:
         m_Texture: {fileID: 2800000, guid: dae1f110646335c46b781eb12fcd853f, type: 3}
         m_Scale: {x: 1, y: 1}
@@ -154,9 +158,9 @@ Material:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Body_Color: {r: 1, g: 0.05187945, b: 0, a: 0}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _Colour1: {r: 0.06595366, g: 0.9811321, b: 0, a: 0}
-    - _Colour1_1: {r: 0.8766724, g: 0.25943398, b: 1, a: 1}
-    - _Colour2: {r: 0.9622642, g: 0.10446545, b: 0.09531862, a: 0}
+    - _Colour1: {r: 0.8463328, g: 1, b: 0, a: 0}
+    - _Colour1_1: {r: 0.12941194, g: 1, b: 0, a: 1}
+    - _Colour2: {r: 1, g: 0.051886797, b: 0.096504115, a: 0}
     - _Colour2_1: {r: 0.5333334, g: 0.8313726, b: 0.8352942, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
