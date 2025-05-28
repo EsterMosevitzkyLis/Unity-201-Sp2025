@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Scrolling Material
-  m_Shader: {fileID: -6465566751694194690, guid: 436b917e100aff54b82751357d1775f7, type: 3}
+  m_Name: M_Aquarium
+  m_Shader: {fileID: -6465566751694194690, guid: 4051336728e4bfa40986b0ae3e276693, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
@@ -68,6 +68,38 @@ Material:
         m_Texture: {fileID: 2800000, guid: 4dd992c0a73d65d49869fb7d6a097880, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_1b672168b58f4c0fbe69a6bc78db012c_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: 4dd992c0a73d65d49869fb7d6a097880, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_1e8627bc224240d2a350daaa8ba66202_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: 072d9b7a2ba649047a3e64a88f0d799c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_5b184ca31d594dd4b17a4b41e09bbd91_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: f1940e3d20b576b4f80de0cbe320059b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_673f7862037e484e9767b66816fabaf1_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: 686d780f096ddd341846f9ed6c3080dc, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_755a1934045a4cbd874a02d2d50c3d95_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: f7a1565299d16cf49ab9bb61c2aa3c80, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_76b06aa6c4c542d2885d4a1664c42d8b_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: f7a1565299d16cf49ab9bb61c2aa3c80, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_8352bec229354f4ca800257bcbb98634_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: f7a1565299d16cf49ab9bb61c2aa3c80, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_d5532050cdba4bfabd2805b61cdd561f_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: 072d9b7a2ba649047a3e64a88f0d799c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _SpecGlossMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -121,6 +153,7 @@ Material:
     - _SrcBlend: 1
     - _SrcBlendAlpha: 1
     - _Surface: 0
+    - _Water_Speed: 0.05
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
@@ -128,8 +161,9 @@ Material:
     - _Color: {r: 1, g: 0, b: 0, a: 1}
     - _Color_1: {r: 0.90775925, g: 0, b: 1, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _Fish_01_Color: {r: 1, g: 0.9240314, b: 0, a: 0}
     - _InnerColor: {r: 2.1411633, g: 3.0596375, b: 5.3403134, a: 0}
-    - _OuterColor: {r: 3.6310368, g: 0, b: 4, a: 0}
+    - _OuterColor: {r: 0.0308936, g: 0.03445448, b: 0.5038031, a: 0}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
     - _Tilling: {r: 1, g: 120, b: 0, a: 0}
   m_BuildTextureStacks: []
