@@ -48,6 +48,10 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _Hologram:
+        m_Texture: {fileID: 2800000, guid: 4dd992c0a73d65d49869fb7d6a097880, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _MainTex:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -66,6 +70,22 @@ Material:
         m_Offset: {x: 0, y: 0}
     - _ParallaxMap:
         m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_20c7e27e6a794e50a8ed455061508a94_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: 4dd992c0a73d65d49869fb7d6a097880, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_81ca8510c22e43c8a363f6a2b835df85_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: ad41c3845b6fb744da9e5f6fa73e7cb9, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_d0d9d3196ef0484e9e9cfe7b2573ee72_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: ad41c3845b6fb744da9e5f6fa73e7cb9, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_f36f5b86eb0a4323a710b80cb59b0ffd_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: 6765ad0a980e8f5458125a5e00b1af95, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SampleTexture2D_fec35800b8e440a0832f3eb68fdd4a5c_Texture_1_Texture2D:
@@ -105,6 +125,7 @@ Material:
     - _DstBlend: 0
     - _DstBlendAlpha: 0
     - _EnvironmentReflections: 1
+    - _Float: 1.23
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
@@ -117,7 +138,8 @@ Material:
     - _Smoothness: 0.5
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
-    - _Speed: 2
+    - _Speed: 1.1
+    - _Speed_1: 1.6
     - _SrcBlend: 1
     - _SrcBlendAlpha: 1
     - _Surface: 0
@@ -125,11 +147,12 @@ Material:
     - _ZWrite: 1
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
-    - _Color: {r: 0, g: 6.3396225, b: 5.3087635, a: 1}
-    - _Color_2: {r: 1.5845509, g: 0, b: 2, a: 0}
+    - _Color: {r: 0.047908146, g: 0.18564422, b: 8.463895, a: 1}
+    - _Color_2: {r: 0.19957249, g: 1.1134051, b: 1.0271295, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
-    - _Stripe_Amount: {r: 1, g: 100, b: 0, a: 0}
+    - _Stripe_Amount: {r: 1, g: 20, b: 0, a: 0}
+    - _Vector2: {r: 1, g: 44.83, b: 0, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
 --- !u!114 &5440135558769583445
