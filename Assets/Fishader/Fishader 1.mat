@@ -8,14 +8,13 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Fishader 1
-  m_Shader: {fileID: -6465566751694194690, guid: 1f9fef0a279202d49be3736d31eed383, type: 3}
+  m_Shader: {fileID: -6465566751694194690, guid: 1e4eb2b87f8147342ba64a15cecd19cd, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
-  m_ValidKeywords: []
-  m_InvalidKeywords:
-  - _ALPHAPREMULTIPLY_ON
+  m_ValidKeywords:
   - _ALPHATEST_ON
   - _SURFACE_TYPE_TRANSPARENT
+  m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -41,6 +40,10 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _Caustics:
+        m_Texture: {fileID: 2800000, guid: 86b6269e10760e64da0c71f6cfc9fd59, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _DetailAlbedoMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -61,6 +64,10 @@ Material:
         m_Texture: {fileID: 2800000, guid: cec95f02cc8c0bb499ede07d80ac9f1a, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _Fish_1:
+        m_Texture: {fileID: 2800000, guid: cec95f02cc8c0bb499ede07d80ac9f1a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _Fish_2:
         m_Texture: {fileID: 2800000, guid: 141145540902cf84f80476d5f5ac8232, type: 3}
         m_Scale: {x: 1, y: 1}
@@ -69,8 +76,12 @@ Material:
         m_Texture: {fileID: 2800000, guid: 1ccf2d251ebb8ca4f96bcae9ae12c8af, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _Flicker_Noise:
+        m_Texture: {fileID: 2800000, guid: 1ccf2d251ebb8ca4f96bcae9ae12c8af, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _Kelp:
-        m_Texture: {fileID: 2800000, guid: 7d362daca288e334597623fd1f210d8e, type: 3}
+        m_Texture: {fileID: 2800000, guid: a3bbe8c85a9ea0a4fb7bed551c345fd3, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
@@ -114,8 +125,8 @@ Material:
     - _AddPrecomputedVelocity: 0
     - _AlphaClip: 1
     - _AlphaToMask: 0
-    - _Amplitude: 1.42
-    - _Blend: 2
+    - _Amplitude: 0.46
+    - _Blend: 1
     - _BlendModePreserveSpecular: 1
     - _BumpScale: 1
     - _CastShadows: 1
@@ -125,7 +136,7 @@ Material:
     - _Cutoff: 0.5
     - _DetailAlbedoMapScale: 1
     - _DetailNormalMapScale: 1
-    - _DstBlend: 1
+    - _DstBlend: 10
     - _DstBlendAlpha: 0
     - _EnvironmentReflections: 1
     - _Float: 0.5
@@ -133,7 +144,8 @@ Material:
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
-    - _Kelp_Speed: 0.84
+    - _Kelp_Lerp: 0.88
+    - _Kelp_Speed: 0.65
     - _Metallic: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.005
@@ -143,11 +155,15 @@ Material:
     - _Smoothness: 0.5
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
-    - _Speed: 0.3
+    - _Speed: -0.14
     - _SrcBlend: 1
     - _SrcBlendAlpha: 1
     - _Surface: 1
     - _Vert_Offset: 0.036
+    - _Water_Prominence: 0.24
+    - _Water_Speed: 0.04
+    - _Water_X_Speed: 0.29
+    - _Water_Y_Speed: 4.8
     - _WorkflowMode: 1
     - _ZTest: 4
     - _ZWrite: 0
@@ -162,12 +178,16 @@ Material:
     - _Fish_1_Color: {r: 4.237095, g: 0.27889466, b: 0, a: 1}
     - _Fish_2_Color: {r: 4.3372993, g: 4.5412054, b: 0, a: 0}
     - _Fresnel_color: {r: 0, g: 4.8671446, b: 4.3843355, a: 1}
-    - _Line_Speed: {r: 0, g: 1.01, b: 0, a: 0}
-    - _Line_Tiling: {r: 0, g: 16.45, b: 0, a: 0}
+    - _Kelp_Color: {r: 0.06511974, g: 4, b: 0, a: 1}
+    - _Kelp_Offset: {r: 0, g: 1.18, b: 0, a: 0}
+    - _Kelp_Offset_2nd: {r: 0.31, g: 0.13, b: 0, a: 0}
+    - _Line_Speed: {r: 0, g: 1.5, b: 0, a: 0}
+    - _Line_Tiling: {r: 0, g: 31.6, b: 0, a: 0}
     - _Offset: {r: 0.02, g: 0.02, b: 0, a: 0}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
     - _Tiling: {r: 1, g: 1, b: 0, a: 0}
     - _Vector2: {r: 0.12, g: 0.06, b: 0, a: 0}
+    - _Water: {r: 0.006710052, g: 0, b: 1, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
 --- !u!114 &5934981466833344014
