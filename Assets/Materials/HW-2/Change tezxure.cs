@@ -1,15 +1,26 @@
 using UnityEngine;
 
-public class TextureSwitcher : MonoBehaviour
+public class CameraOrbit : MonoBehaviour
 {
-    public Material targetMaterial;
-    public string texturePropertyName = "_Car"; // or the name from your Shader Graph
+    public Transform target;       // Object to orbit around
+    public float distance = 5f;    // Distance from the target
+    public float speed = 30f;      // Degrees per second
 
-    public void SetTexture(Texture texture)
+    private float angle = 0f;
+
+    void Update()
     {
-        if (targetMaterial != null && texture != null)
-        {
-            targetMaterial.SetTexture(texturePropertyName, texture);
-        }
+        angle += speed * Time.deltaTime;
+        float radians = angle * Mathf.Deg2Rad;
+
+        // Calculate new camera position
+        Vector3 offset = new Vector3(
+            Mathf.Sin(radians) * distance,
+            0f,
+            Mathf.Cos(radians) * distance
+        );
+
+        transform.position = target.position + offset;
+        transform.LookAt(target);
     }
 }
