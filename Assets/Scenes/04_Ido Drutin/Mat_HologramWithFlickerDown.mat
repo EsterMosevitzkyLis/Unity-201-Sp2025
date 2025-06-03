@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Mat_Hologram
+  m_Name: Mat_HologramWithFlickerDown
   m_Shader: {fileID: -6465566751694194690, guid: bb278632ed7efea44acb176feebee0e7, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -105,7 +105,9 @@ Material:
     - _DstBlend: 0
     - _DstBlendAlpha: 0
     - _EnvironmentReflections: 1
-    - _FlickerAmount: 0.7
+    - _FlickerAmount: 0.6
+    - _Flicker_On_Off: 1
+    - _FrenselPower: 3
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
@@ -115,7 +117,7 @@ Material:
     - _QueueControl: 0
     - _QueueOffset: 0
     - _ReceiveShadows: 1
-    - _Scroll_Speed: 0.2
+    - _Scroll_Speed: 0.38
     - _Smoothness: 0.5
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
@@ -129,8 +131,8 @@ Material:
     - _Base_Color: {r: 0.51063544, g: 0.67878264, b: 0.8018868, a: 0}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _Frensel_Color: {r: 4.867144, g: 1.2308128, b: 0, a: 0}
-    - _HologramTextureTilling: {r: 1, g: 3, b: 0, a: 0}
+    - _Frensel_Color: {r: 4.867145, g: 0.46094635, b: 0, a: 0}
+    - _HologramTextureTilling: {r: 1, g: 7, b: 0, a: 0}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
