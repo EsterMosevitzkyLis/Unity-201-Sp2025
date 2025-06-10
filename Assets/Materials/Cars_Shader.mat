@@ -39,6 +39,18 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
+        m_Texture: {fileID: 2800000, guid: c6c9b03cb9595e64eb5cc52c02e8616d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex_1:
+        m_Texture: {fileID: 2800000, guid: b3b9436518dd1a14fb6797bb3f368c35, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Tex_A:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Tex_B:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -57,8 +69,10 @@ Material:
     m_Ints: []
     m_Floats:
     - _Boolean: 1
+    - _WhatCar: 1
+    - _WhatColor: 1
     m_Colors:
-    - _Color_A: {r: 1, g: 0, b: 0, a: 1}
-    - _Color_B: {r: 0.8550442, g: 1, b: 0, a: 0}
+    - _Color_A: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+    - _Color_B: {r: 1, g: 0, b: 0, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
