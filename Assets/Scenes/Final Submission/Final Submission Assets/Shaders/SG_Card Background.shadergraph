@@ -420,6 +420,9 @@
         },
         {
             "m_Id": "72f55e3fb6084fa1bed2ef25ac2aeb60"
+        },
+        {
+            "m_Id": "f193372b49b44a49b3c846620d1dd686"
         }
     ],
     "m_GroupDatas": [],
@@ -1359,6 +1362,20 @@
             "m_InputSlot": {
                 "m_Node": {
                     "m_Id": "d25d73ff3a1648ffb758f65049fcf593"
+                },
+                "m_SlotId": 0
+            }
+        },
+        {
+            "m_OutputSlot": {
+                "m_Node": {
+                    "m_Id": "83a8b928f62f45dbb24622ae0f67012d"
+                },
+                "m_SlotId": 2
+            },
+            "m_InputSlot": {
+                "m_Node": {
+                    "m_Id": "f193372b49b44a49b3c846620d1dd686"
                 },
                 "m_SlotId": 0
             }
@@ -9087,6 +9104,30 @@
 
 {
     "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.DynamicVectorMaterialSlot",
+    "m_ObjectId": "73bf1ea2b0d0459ca99349d3b6226256",
+    "m_Id": 0,
+    "m_DisplayName": "",
+    "m_SlotType": 0,
+    "m_Hidden": false,
+    "m_ShaderOutputName": "",
+    "m_StageCapability": 3,
+    "m_Value": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+    },
+    "m_DefaultValue": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+    }
+}
+
+{
+    "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.RedirectNodeData",
     "m_ObjectId": "750259f092f04bc5b0f299a07e037e61",
     "m_Group": {
@@ -9097,10 +9138,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -3725.0,
-            "y": -108.0001449584961,
+            "x": -3717.0,
+            "y": -119.00005340576172,
             "width": 56.0,
-            "height": 24.000030517578126
+            "height": 24.000015258789064
         }
     },
     "m_Slots": [
@@ -10386,7 +10427,7 @@
             "referenceName": "BUFF"
         }
     ],
-    "m_Value": 2,
+    "m_Value": 1,
     "m_IsEditable": true
 }
 
@@ -12850,6 +12891,30 @@
 
 {
     "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.DynamicVectorMaterialSlot",
+    "m_ObjectId": "a90352652ef34cc88238aef6a86ea451",
+    "m_Id": 1,
+    "m_DisplayName": "",
+    "m_SlotType": 1,
+    "m_Hidden": false,
+    "m_ShaderOutputName": "",
+    "m_StageCapability": 3,
+    "m_Value": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+    },
+    "m_DefaultValue": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+    }
+}
+
+{
+    "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.RedirectNodeData",
     "m_ObjectId": "aa0667566da5405c8f44763ea7ad6031",
     "m_Group": {
@@ -14918,10 +14983,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -1709.0001220703125,
-            "y": -175.00001525878907,
+            "x": -4016.0,
+            "y": -151.0000457763672,
             "width": 208.0,
-            "height": 104.0000991821289
+            "height": 104.00000762939453
         }
     },
     "m_Slots": [
@@ -17212,6 +17277,42 @@
     "m_NormalMapSpace": 0,
     "m_EnableGlobalMipBias": true,
     "m_MipSamplingMode": 0
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.RedirectNodeData",
+    "m_ObjectId": "f193372b49b44a49b3c846620d1dd686",
+    "m_Group": {
+        "m_Id": ""
+    },
+    "m_Name": "Redirect Node",
+    "m_DrawState": {
+        "m_Expanded": true,
+        "m_Position": {
+            "serializedVersion": "2",
+            "x": -1970.0,
+            "y": -837.0001220703125,
+            "width": 56.0,
+            "height": 24.0
+        }
+    },
+    "m_Slots": [
+        {
+            "m_Id": "73bf1ea2b0d0459ca99349d3b6226256"
+        },
+        {
+            "m_Id": "a90352652ef34cc88238aef6a86ea451"
+        }
+    ],
+    "synonyms": [],
+    "m_Precision": 0,
+    "m_PreviewExpanded": true,
+    "m_DismissedVersion": 0,
+    "m_PreviewMode": 0,
+    "m_CustomColors": {
+        "m_SerializableColors": []
+    }
 }
 
 {
