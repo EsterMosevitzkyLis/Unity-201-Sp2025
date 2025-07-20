@@ -7,13 +7,13 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Shader Graphs_Holo_Rare_Back
-  m_Shader: {fileID: -6465566751694194690, guid: 1edd4debf608f1b429b34ae60a750dbf, type: 3}
+  m_Name: Shader Graphs_Icon
+  m_Shader: {fileID: -6465566751694194690, guid: 9c39c99c7da1ead468d3893b5864dc9a, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
   m_InvalidKeywords: []
-  m_LightmapFlags: 2
+  m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
@@ -24,12 +24,28 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-    - _SampleTexture2D_25ff30f550924d4aa9481a7a818ecb96_Texture_1_Texture2D:
+    - _SampleTexture2D_72da2efa8da34d18b4038af065c5814f_Texture_1_Texture2D:
         m_Texture: {fileID: 2800000, guid: 904353e6f81fa064c95f19e02a825cea, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _SampleTexture2D_54a3c57d9dfd4909aead2c4986181a4f_Texture_1_Texture2D:
-        m_Texture: {fileID: 2800000, guid: cc48abbe9e2dc3a42a6d4e7d6a084454, type: 3}
+    - _SampleTexture2D_aaca9d2683f044a1a8783df06c74ca1a_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: e6672c21ef71968458f97b34e2de3129, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_ace02e2e82884a6ea6f980b425e05298_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: 2227b30f80789764e92cffc89395e00d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_b8ce2c101f584a61a67b2c674174e118_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: 904353e6f81fa064c95f19e02a825cea, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_f244a269240d4413b780f2202b0ea782_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: 904353e6f81fa064c95f19e02a825cea, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SplitTextureTransform_48aba544441c44469a8f9bd7affcd4a7_In_0_Texture2D:
+        m_Texture: {fileID: 2800000, guid: 4dd992c0a73d65d49869fb7d6a097880, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
@@ -46,17 +62,13 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _Color: 0.71
     - _QueueControl: 0
     - _QueueOffset: 0
     m_Colors:
-    - _Color_1: {r: 1.889262, g: 0.6033768, b: 0, a: 0}
-    - _Color_2: {r: 1, g: 0.9004603, b: 0, a: 0}
-    - _Color_3: {r: 1, g: 0.9339225, b: 0, a: 0}
-    - _OffSet: {r: 0.24, g: 0.09, b: 0, a: 0}
+    - _OffSet: {r: 1, g: -1.09, b: 0, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
---- !u!114 &6425409894285327462
+--- !u!114 &4576334130585042515
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
