@@ -741,8 +741,8 @@ RectTransform:
   m_GameObject: {fileID: 1112926231}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 1.2, y: 1.2, z: 1.2}
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 9056959348143341722}
   - {fileID: 8973770155947845393}
@@ -968,6 +968,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: Plane_Aether Infusion - Rare
       objectReference: {fileID: 0}
+    - target: {fileID: 6958177839591675766, guid: 12022a25751ee9b449f9247c6fa9ca22, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6958177839591675766, guid: 12022a25751ee9b449f9247c6fa9ca22, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6958177839591675766, guid: 12022a25751ee9b449f9247c6fa9ca22, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6958177839591675766, guid: 12022a25751ee9b449f9247c6fa9ca22, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -984,6 +1000,22 @@ PrefabInstance:
     - target: {fileID: 3916596446137618282, guid: ecdaeee3cdcdf5b4fa71eebf51025e82, type: 3}
       propertyPath: m_Name
       value: Plane_Iron Bastion - Common
+      objectReference: {fileID: 0}
+    - target: {fileID: 6850051654433475201, guid: ecdaeee3cdcdf5b4fa71eebf51025e82, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6850051654433475201, guid: ecdaeee3cdcdf5b4fa71eebf51025e82, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6850051654433475201, guid: ecdaeee3cdcdf5b4fa71eebf51025e82, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6850051654433475201, guid: ecdaeee3cdcdf5b4fa71eebf51025e82, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8454074206850220729, guid: ecdaeee3cdcdf5b4fa71eebf51025e82, type: 3}
       propertyPath: m_Pivot.x
@@ -1096,6 +1128,22 @@ PrefabInstance:
     - target: {fileID: 1989418160503781624, guid: d2ea27a66d8e65e4d94965a1d86f2e69, type: 3}
       propertyPath: m_Name
       value: Plane_Obsidian Wraith - Legendary
+      objectReference: {fileID: 0}
+    - target: {fileID: 4130478200424547452, guid: d2ea27a66d8e65e4d94965a1d86f2e69, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4130478200424547452, guid: d2ea27a66d8e65e4d94965a1d86f2e69, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4130478200424547452, guid: d2ea27a66d8e65e4d94965a1d86f2e69, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4130478200424547452, guid: d2ea27a66d8e65e4d94965a1d86f2e69, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7684756731915937048, guid: d2ea27a66d8e65e4d94965a1d86f2e69, type: 3}
       propertyPath: m_Pivot.x
