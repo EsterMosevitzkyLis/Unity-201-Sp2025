@@ -1,0 +1,94 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5818835676352593445
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2681198460212240605}
+  - component: {fileID: 1482521908468826611}
+  - component: {fileID: 2847981577633582210}
+  m_Layer: 7
+  m_Name: GaruRifle
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2681198460212240605
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5818835676352593445}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.19185434, y: -0.694354, z: -0.2087445, w: 0.6614304}
+  m_LocalPosition: {x: 31, y: 59.481186, z: -28.72595}
+  m_LocalScale: {x: 29.28432, y: 29.284317, z: 29.284315}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: -32.935, y: -92.586, z: -0.663}
+--- !u!33 &1482521908468826611
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5818835676352593445}
+  m_Mesh: {fileID: -2533895985498438089, guid: acb32ef1311b2b148863d142e0ffd156, type: 3}
+--- !u!23 &2847981577633582210
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5818835676352593445}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 228f86288149e2c4c86c56204cb5fdd4, type: 2}
+  - {fileID: 2100000, guid: 4500662524e32e44b90f4e626bd2642b, type: 2}
+  - {fileID: 2100000, guid: 9dbb4977bef011047a1ea68819c8c967, type: 2}
+  - {fileID: 2100000, guid: 3a18d16d773c93549b4492935e9396b3, type: 2}
+  - {fileID: 2100000, guid: a9537187f56414445b5129d103194b36, type: 2}
+  - {fileID: 2100000, guid: 4f7c68051292aee4892cd325db874e88, type: 2}
+  - {fileID: 2100000, guid: d01ac56136fc97847b055db1797135f0, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}

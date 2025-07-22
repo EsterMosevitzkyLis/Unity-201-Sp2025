@@ -3,7 +3,42 @@ guid: acb32ef1311b2b148863d142e0ffd156
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Base
+    second: {fileID: 2100000, guid: 228f86288149e2c4c86c56204cb5fdd4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Black
+    second: {fileID: 2100000, guid: 4500662524e32e44b90f4e626bd2642b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Body
+    second: {fileID: 2100000, guid: 3a18d16d773c93549b4492935e9396b3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Energy
+    second: {fileID: 2100000, guid: 9dbb4977bef011047a1ea68819c8c967, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Front Barrel 2
+    second: {fileID: 2100000, guid: 4f7c68051292aee4892cd325db874e88, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Scope
+    second: {fileID: 2100000, guid: a9537187f56414445b5129d103194b36, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Stock
+    second: {fileID: 2100000, guid: d01ac56136fc97847b055db1797135f0, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
