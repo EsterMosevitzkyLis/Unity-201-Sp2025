@@ -201,6 +201,9 @@
         },
         {
             "m_Id": "1c514a249d524a298512c8e724488501"
+        },
+        {
+            "m_Id": "53e414fe1ec54201b4a6f27f3b884f3b"
         }
     ],
     "m_GroupDatas": [],
@@ -440,6 +443,20 @@
             "m_InputSlot": {
                 "m_Node": {
                     "m_Id": "afbbf787e04b484cab6f535ac43e59bd"
+                },
+                "m_SlotId": 1
+            }
+        },
+        {
+            "m_OutputSlot": {
+                "m_Node": {
+                    "m_Id": "53e414fe1ec54201b4a6f27f3b884f3b"
+                },
+                "m_SlotId": 0
+            },
+            "m_InputSlot": {
+                "m_Node": {
+                    "m_Id": "62e7263405674a1f9b9f9e2c91c6a6c9"
                 },
                 "m_SlotId": 1
             }
@@ -2872,15 +2889,15 @@
     "m_Value": 0.0,
     "m_SerializableColorKeys": [
         {
-            "x": 0.054901961237192157,
-            "y": 0.0156862773001194,
-            "z": 0.0156862773001194,
+            "x": 0.11899999529123306,
+            "y": 0.004165003076195717,
+            "z": 0.004165003076195717,
             "w": 0.0
         },
         {
-            "x": 0.12442012131214142,
-            "y": 0.03567303344607353,
-            "z": 0.0017801309004426003,
+            "x": 0.4976804852485657,
+            "y": 0.14269213378429414,
+            "z": 0.007120523601770401,
             "w": 0.16470588743686677
         },
         {
@@ -3293,6 +3310,42 @@
         "e31": 0.0,
         "e32": 0.0,
         "e33": 1.0
+    }
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.PropertyNode",
+    "m_ObjectId": "53e414fe1ec54201b4a6f27f3b884f3b",
+    "m_Group": {
+        "m_Id": ""
+    },
+    "m_Name": "Property",
+    "m_DrawState": {
+        "m_Expanded": true,
+        "m_Position": {
+            "serializedVersion": "2",
+            "x": -3309.999755859375,
+            "y": 346.0,
+            "width": 115.0,
+            "height": 34.000030517578128
+        }
+    },
+    "m_Slots": [
+        {
+            "m_Id": "8a9e85efd8654469a18940bd8f79a22f"
+        }
+    ],
+    "synonyms": [],
+    "m_Precision": 0,
+    "m_PreviewExpanded": true,
+    "m_DismissedVersion": 0,
+    "m_PreviewMode": 0,
+    "m_CustomColors": {
+        "m_SerializableColors": []
+    },
+    "m_Property": {
+        "m_Id": "d89bf4110aed4cf08c1929d1ac010232"
     }
 }
 
@@ -3984,7 +4037,7 @@
     "m_StageCapability": 3,
     "m_BareResource": false,
     "m_Texture": {
-        "m_SerializedTexture": "{\"texture\":{\"fileID\":2800000,\"guid\":\"33d0851c4fb4cb54192b971e0501a6ff\",\"type\":3}}",
+        "m_SerializedTexture": "{\"texture\":{\"fileID\":2800000,\"guid\":\"6d5a0101b40874e4f9834c77b91785ef\",\"type\":3}}",
         "m_Guid": ""
     },
     "m_DefaultType": 0
@@ -5022,6 +5075,19 @@
 
 {
     "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.Texture2DMaterialSlot",
+    "m_ObjectId": "8a9e85efd8654469a18940bd8f79a22f",
+    "m_Id": 0,
+    "m_DisplayName": "Sprite",
+    "m_SlotType": 1,
+    "m_Hidden": false,
+    "m_ShaderOutputName": "Out",
+    "m_StageCapability": 3,
+    "m_BareResource": false
+}
+
+{
+    "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.DynamicValueMaterialSlot",
     "m_ObjectId": "8adc567033a846f5b4ba802a768911c4",
     "m_Id": 2,
@@ -5568,7 +5634,7 @@
         "m_SerializableColors": []
     },
     "m_Value": {
-        "x": 0.03999999910593033,
+        "x": 0.035999998450279239,
         "y": 0.0,
         "z": 1.0
     }
@@ -7320,9 +7386,9 @@
             "w": 0.0
         },
         {
-            "x": 0.025471696630120279,
-            "y": 0.025471696630120279,
-            "z": 0.025471696630120279,
+            "x": 0.10188678652048111,
+            "y": 0.10188678652048111,
+            "z": 0.10188678652048111,
             "w": 0.10000763088464737
         },
         {
@@ -7710,7 +7776,7 @@
     "hlslDeclarationOverride": 0,
     "m_Hidden": false,
     "m_Value": {
-        "m_SerializedTexture": "{\"texture\":{\"fileID\":2800000,\"guid\":\"e8a881a18f8e40a4bbecc58d17b06b75\",\"type\":3}}",
+        "m_SerializedTexture": "{\"texture\":{\"fileID\":2800000,\"guid\":\"33d0851c4fb4cb54192b971e0501a6ff\",\"type\":3}}",
         "m_Guid": ""
     },
     "isMainTexture": false,
