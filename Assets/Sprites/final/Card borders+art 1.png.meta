@@ -1,12 +1,12 @@
 fileFormatVersion: 2
-guid: e25a819bbd5ff524e810ba6a84ae07dc
+guid: b276af962e754334ea0baaafce487e9d
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -37,8 +37,8 @@ TextureImporter:
     filterMode: 1
     aniso: 1
     mipBias: 0
-    wrapU: 0
-    wrapV: 0
+    wrapU: 1
+    wrapV: 1
     wrapW: 0
   nPOTScale: 0
   lightmap: 0
@@ -52,9 +52,9 @@ TextureImporter:
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
-  alphaIsTransparency: 0
+  alphaIsTransparency: 1
   spriteTessellationDetail: -1
-  textureType: 0
+  textureType: 8
   textureShape: 1
   singleChannelComponent: 0
   flipbookRows: 1
@@ -97,57 +97,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: blockibg_1
+      name: Card borders+art 1_0
       rect:
         serializedVersion: 2
-        x: 1749
-        y: 1044
-        width: 4
-        height: 6
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f04c164c4c11784488fb7f1a4bd33299
-      internalID: 1160515203
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: blockibg_3
-      rect:
-        serializedVersion: 2
-        x: 808
-        y: 342
-        width: 4
-        height: 29
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 850e0d8ddc8a8d1499657c3025852235
-      internalID: -293360550
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: blockibg_0
-      rect:
-        serializedVersion: 2
-        x: 840
-        y: 534
-        width: 147
-        height: 431
+        x: 447
+        y: 65
+        width: 637
+        height: 958
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -156,8 +112,118 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fc7ea70f8471eeb4c9b1731aa6045498
-      internalID: -395076557
+      spriteID: 55e4126a8506e1c4aa31308bafb54056
+      internalID: 572981289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Card borders+art 1_1
+      rect:
+        serializedVersion: 2
+        x: 1223
+        y: 72
+        width: 640
+        height: 959
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3fece234bc68e043820e79095931c7a
+      internalID: 1939637104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Card borders+art 1_2
+      rect:
+        serializedVersion: 2
+        x: 1957
+        y: 75
+        width: 645
+        height: 958
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 661d5aba482bd77468953768ee3ff89e
+      internalID: 1686039354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Card borders+art 1_3
+      rect:
+        serializedVersion: 2
+        x: 2658
+        y: 75
+        width: 627
+        height: 953
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cf89395415ba6641b8c108e4f83488d
+      internalID: 1583004880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Card borders+art 1_4
+      rect:
+        serializedVersion: 2
+        x: 3480
+        y: 75
+        width: 637
+        height: 958
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb3c21529aa3d654ebe0484959111ea3
+      internalID: -1922591255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Card borders+art 1_5
+      rect:
+        serializedVersion: 2
+        x: 4380
+        y: 62
+        width: 638
+        height: 959
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fb2b613ce446ff419447d7d139adb73
+      internalID: 1414952487
       vertices: []
       indices: 
       edges: []
@@ -166,7 +232,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: e91cb842fbf05ee44acc3afd5088c4f0
+    spriteID: a357536518ee63244832ce6946250b2b
     internalID: 0
     vertices: []
     indices: 
@@ -176,10 +242,12 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      blockibg_0: -395076557
-      blockibg_1: 1160515203
-      blockibg_2: -891844668
-      blockibg_3: -293360550
+      Card borders+art 1_0: 572981289
+      Card borders+art 1_1: 1939637104
+      Card borders+art 1_2: 1686039354
+      Card borders+art 1_3: 1583004880
+      Card borders+art 1_4: -1922591255
+      Card borders+art 1_5: 1414952487
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
