@@ -687,13 +687,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 259328639}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
+  m_LocalRotation: {x: 0.64770997, y: -0.25637004, z: 0.03552708, w: 0.71657807}
   m_LocalPosition: {x: 0, y: 3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+  m_LocalEulerAnglesHint: {x: 71.171, y: -84.757, z: -60.604}
 --- !u!114 &259328642
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5142,18 +5142,6 @@ PrefabInstance:
     m_TransformParent: {fileID: 782228394}
     m_Modifications:
     - target: {fileID: 2681198460212240605, guid: 8e53b128c8a2d2c47a246fb6005eed91, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 37.53159
-      objectReference: {fileID: 0}
-    - target: {fileID: 2681198460212240605, guid: 8e53b128c8a2d2c47a246fb6005eed91, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 37.531586
-      objectReference: {fileID: 0}
-    - target: {fileID: 2681198460212240605, guid: 8e53b128c8a2d2c47a246fb6005eed91, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 37.531586
-      objectReference: {fileID: 0}
-    - target: {fileID: 2681198460212240605, guid: 8e53b128c8a2d2c47a246fb6005eed91, type: 3}
       propertyPath: m_LocalPosition.x
       value: 9
       objectReference: {fileID: 0}
@@ -5163,7 +5151,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2681198460212240605, guid: 8e53b128c8a2d2c47a246fb6005eed91, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -28.72595
+      value: -18.1
       objectReference: {fileID: 0}
     - target: {fileID: 2681198460212240605, guid: 8e53b128c8a2d2c47a246fb6005eed91, type: 3}
       propertyPath: m_LocalRotation.w
@@ -5196,10 +5184,6 @@ PrefabInstance:
     - target: {fileID: 5818835676352593445, guid: 8e53b128c8a2d2c47a246fb6005eed91, type: 3}
       propertyPath: m_Name
       value: GaruRifle
-      objectReference: {fileID: 0}
-    - target: {fileID: 5818835676352593445, guid: 8e53b128c8a2d2c47a246fb6005eed91, type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
