@@ -407,6 +407,9 @@
         },
         {
             "m_Id": "8ade8c1d75b449ab8767122f86233610"
+        },
+        {
+            "m_Id": "b9c94ef1032d4fb28f9d602c1b89dc63"
         }
     ],
     "m_GroupDatas": [],
@@ -6506,6 +6509,18 @@
 
 {
     "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.GradientMaterialSlot",
+    "m_ObjectId": "35c1f95953ab4c43a8fe0be40ef320e7",
+    "m_Id": 0,
+    "m_DisplayName": "Out",
+    "m_SlotType": 1,
+    "m_Hidden": false,
+    "m_ShaderOutputName": "Out",
+    "m_StageCapability": 3
+}
+
+{
+    "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.DynamicValueMaterialSlot",
     "m_ObjectId": "385eebe341ad4abcbc04a45092be6b72",
     "m_Id": 1,
@@ -7124,9 +7139,9 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": 1086.0,
-            "y": -861.0001220703125,
-            "width": 208.0001220703125,
+            "x": 892.9999389648438,
+            "y": -1168.9998779296875,
+            "width": 207.99993896484376,
             "height": 104.0
         }
     },
@@ -7160,9 +7175,9 @@
             "w": 0.6882429122924805
         },
         {
-            "x": 0.15237078070640565,
-            "y": 0.03700043633580208,
-            "z": 0.01944243535399437,
+            "x": 0.16875243186950684,
+            "y": 0.04057712480425835,
+            "z": 0.02065964601933956,
             "w": 1.0
         }
     ],
@@ -13646,6 +13661,73 @@
         "e32": 0.0,
         "e33": 1.0
     }
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.GradientNode",
+    "m_ObjectId": "b9c94ef1032d4fb28f9d602c1b89dc63",
+    "m_Group": {
+        "m_Id": ""
+    },
+    "m_Name": "Gradient",
+    "m_DrawState": {
+        "m_Expanded": true,
+        "m_Position": {
+            "serializedVersion": "2",
+            "x": 893.0000610351563,
+            "y": -1065.0,
+            "width": 208.00006103515626,
+            "height": 104.0
+        }
+    },
+    "m_Slots": [
+        {
+            "m_Id": "35c1f95953ab4c43a8fe0be40ef320e7"
+        }
+    ],
+    "synonyms": [
+        "ramp"
+    ],
+    "m_Precision": 0,
+    "m_PreviewExpanded": true,
+    "m_DismissedVersion": 0,
+    "m_PreviewMode": 0,
+    "m_CustomColors": {
+        "m_SerializableColors": []
+    },
+    "m_Value": 0.0,
+    "m_SerializableColorKeys": [
+        {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 0.0
+        },
+        {
+            "x": 0.10196078568696976,
+            "y": 0.005811762996017933,
+            "z": 0.032880451530218127,
+            "w": 0.032349128276109698
+        },
+        {
+            "x": 0.2329999953508377,
+            "y": 0.014793649315834046,
+            "z": 0.022190485149621965,
+            "w": 1.0
+        }
+    ],
+    "m_SerializableAlphaKeys": [
+        {
+            "x": 1.0,
+            "y": 0.0
+        },
+        {
+            "x": 1.0,
+            "y": 1.0
+        }
+    ],
+    "m_SerializableMode": 0
 }
 
 {
