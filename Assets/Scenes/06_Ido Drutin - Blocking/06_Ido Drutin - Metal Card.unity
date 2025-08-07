@@ -4896,6 +4896,10 @@ PrefabInstance:
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 9f89b077091a0ea4e8f5b601adf1ebbc, type: 2}
+    - target: {fileID: 5229285839945148086, guid: 4e1394456018115459147faa6872ee67, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 2100000, guid: b3e7d7247d4caeb45afe8b89133d1f23, type: 2}
     - target: {fileID: 8131422310432042587, guid: 4e1394456018115459147faa6872ee67, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -4965,22 +4969,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ollo Prefab Metal Variant
       objectReference: {fileID: 0}
-    - target: {fileID: 1758308957642435656, guid: f6b264769244cf64aab09c45d6a6d85d, type: 3}
-      propertyPath: 'm_Materials.Array.data[0]'
-      value: 
-      objectReference: {fileID: 2100000, guid: 99f507de77b43284b9f3eb2133659c96, type: 2}
-    - target: {fileID: 8511507278027187793, guid: f6b264769244cf64aab09c45d6a6d85d, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8511507278027187793, guid: f6b264769244cf64aab09c45d6a6d85d, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -13.3
-      objectReference: {fileID: 0}
-    - target: {fileID: 8511507278027187793, guid: f6b264769244cf64aab09c45d6a6d85d, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5046,6 +5034,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7898313456425740543, guid: 3c6d87f0cda524d4cac557d6cb6bdfcf, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 2100000, guid: 7a18039ad83fc8f4db9962bff7fc4583, type: 2}
     - target: {fileID: 8008960982936448670, guid: 3c6d87f0cda524d4cac557d6cb6bdfcf, type: 3}
       propertyPath: m_Name
       value: Renko Prefab Metal Variant

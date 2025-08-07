@@ -220,6 +220,14 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2299712031433241363, guid: 5fb82b8865bbc2a4098a6225059640aa, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -13.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2299712031433241363, guid: 5fb82b8865bbc2a4098a6225059640aa, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0
+      objectReference: {fileID: 0}
     - target: {fileID: 3885339348997436774, guid: 5fb82b8865bbc2a4098a6225059640aa, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -272,10 +280,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8183605122809035018, guid: 5fb82b8865bbc2a4098a6225059640aa, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 99f507de77b43284b9f3eb2133659c96, type: 2}
     - target: {fileID: 8738712615416231656, guid: 5fb82b8865bbc2a4098a6225059640aa, type: 3}
       propertyPath: m_text
       value: Ollo The Armor Of Old
       objectReference: {fileID: 0}
+    - target: {fileID: 8916661566342607584, guid: 5fb82b8865bbc2a4098a6225059640aa, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 2100000, guid: f69b54d19df22f74882126e8620cb231, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
