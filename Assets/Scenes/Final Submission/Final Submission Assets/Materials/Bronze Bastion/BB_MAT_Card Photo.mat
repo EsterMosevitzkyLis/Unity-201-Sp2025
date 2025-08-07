@@ -1,5 +1,18 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-21423236740153711
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 9
 --- !u!21 &2100000
 Material:
   serializedVersion: 8
@@ -7,17 +20,18 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: IB_MAT_Card Name
-  m_Shader: {fileID: -6465566751694194690, guid: 50c56f02be464264e8a7bee250ab1a73, type: 3}
+  m_Name: BB_MAT_Card Photo
+  m_Shader: {fileID: -6465566751694194690, guid: 4d52feab6c70b044ba249ecef37fbff3, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
-  - _CARD_TYPE_DEFENSE
-  m_InvalidKeywords: []
+  - _CARD_DEFENSE
+  m_InvalidKeywords:
+  - _CARD_TYPE_ATTACK
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: 3000
+  m_CustomRenderQueue: 2997
   stringTagMap: {}
   disabledShaderPasses:
   - MOTIONVECTORS
@@ -30,6 +44,14 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _CardFrame:
+        m_Texture: {fileID: 2800000, guid: 6d5a0101b40874e4f9834c77b91785ef, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Card_Image:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -65,12 +87,44 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_08aeb9139fdf4f568a999a2f17437ab6_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: da75d3e7af6d92a4685c51d4de5340a4, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_18ee3aa572ac4766ba574f45a366f2cf_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: 072d9b7a2ba649047a3e64a88f0d799c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_4fc36621f1be472292f0c6cae4eb935d_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: 8ebd395f8f2e1754da3734cbf7e12769, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_c34a4b19ed904b05b76b08b623284904_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: 072d9b7a2ba649047a3e64a88f0d799c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_e40bcc4e554a41bf9b45fbf3e4d958e5_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: 8319e09b91fe6d34ca93d8c994b54d0e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_e4ff91e5bebc49969a7313cf332d0ea3_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: 69bb4c0fa369c934e8908a4e80bdfb77, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_fa6944cd46b84816bffe321845adce80_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: d490bfed33ddf944ea5b6aefc3feea34, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_ffd46ae14deb4e5f8f5ad0da5bdc0d5a_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: f244a11122fadbe498daf6377b2d8553, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _SpecGlossMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Sprite:
-        m_Texture: {fileID: 2800000, guid: 512eb37572a824f4cab77decc4314857, type: 3}
+        m_Texture: {fileID: 2800000, guid: 6d5a0101b40874e4f9834c77b91785ef, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
@@ -93,7 +147,8 @@ Material:
     - _Blend: 0
     - _BlendModePreserveSpecular: 1
     - _BumpScale: 1
-    - _CARD_TYPE: 1
+    - _CARD: 1
+    - _CARD_TYPE: 0
     - _ClearCoatMask: 0
     - _ClearCoatSmoothness: 0
     - _Cull: 2
@@ -110,7 +165,7 @@ Material:
     - _OcclusionStrength: 1
     - _Parallax: 0.005
     - _QueueControl: 0
-    - _QueueOffset: 0
+    - _QueueOffset: -3
     - _ReceiveShadows: 1
     - _Smoothness: 0.5
     - _SmoothnessTextureChannel: 0
@@ -127,16 +182,3 @@ Material:
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
---- !u!114 &351669223078853421
-MonoBehaviour:
-  m_ObjectHideFlags: 11
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  version: 9
